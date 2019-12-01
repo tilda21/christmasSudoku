@@ -1,0 +1,71 @@
+.board {
+    margin: 10px auto;
+    display: block;
+    
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    outline-style: solid;
+    max-width: 35vw;
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    outline-style: solid;
+    outline-width: 0.1vw;
+    padding: 0.4vw 0.4vw;
+    width: 3vw;
+    height: 3vw;
+    margin: 0px;
+    background-color: brown;
+}
+.box:hover {
+    background-color: red;
+}
+.number {
+    font-size: 2vw;
+    margin-top: 0.1vw;
+}
+
+@media only screen and (max-width:500px) {
+    .grid {
+        min-width: 300px;
+        min-height: 300px;
+        text-align: center;
+        margin: auto auto 10px auto;
+    }
+    .box {
+        padding: 0.4vw 0.4vw;
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+        background-color: brown;
+    }
+    .number {
+        font-size: 20px;
+        margin-top: 1.5px;
+    }
+}
+@media only screen and (max-width:300px) {
+    .grid {
+        min-width: 270px;
+        min-height: 270px;
+        text-align: center;
+        margin: auto auto 10px auto;
+    }
+    .box {
+        padding: 0.4vw 0.4vw;
+        width: 28px;
+        height: 28px;
+        margin: 0px;
+        background-color: brown;
+    }
+    .number {
+        font-size: 20px;
+        margin-top: 1.5px;
+    }
+}

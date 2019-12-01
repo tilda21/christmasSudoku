@@ -1,22 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas|Open+Sans&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: darkred;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+
+}
+.App-title {
+  font-family: 'Mountains of Christmas', cursive;
+}
+.App-title h1.App-title {
+  font-size: 60px;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+}
+.App-title h2.App-title2 {
+  font-size: 30px;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;  
+}
+.App-footer {
+  font-family: 'Open Sans', sans-serif;
+}
+.App-footer p.no-margin-bottom {
+  margin-bottom: 0px;
+}
+.App-footer p.no-margin {
+  margin: 0px;
 }
 
-.App-link {
-  color: #09d3ac;
+.startButton {
+  margin-top: 10px;
+}
+
+.rudolph {
+  margin-top: 10px;
+  height: 450px;
+}
+
+@media only screen and (max-width:500px) {
+  .App-title h1.App-title {
+    font-size: 60px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+  }
+  .App-title h2.App-title2 {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;  
+  }
+  .startButton {
+    margin-top: 3px;
+
+  }
+  .rudolph {
+    margin-top: 10px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width:300px) {
+  .App-title h1.App-title {
+    font-size: 50px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+  }
+  .App-title h2.App-title2 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;  
+  }
+  .App-footer {
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+  }
+  .startButton {
+    margin-top: 10px;
+  }
+  .rudolph {
+    margin-top: 10px;
+    height: 250px;
+  }
+
 }
