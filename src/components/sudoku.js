@@ -88,7 +88,7 @@ function MakePuzzle() {
             
         });
 
-        const uncompletedPuzzle = pluck(puzzle,81)
+        const uncompletedPuzzle = pluck(puzzle,50)
 
         //console.log(puzzle[0][0]);
         console.log(puzzle);
